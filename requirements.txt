@@ -1,0 +1,3 @@
+curatorkit
+jsonschema
+pytest

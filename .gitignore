@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+artifacts/curatorkit/stage_input.jsonl
+.pytest_cache/

@@ -1,0 +1,77 @@
+{
+  "counts": {
+    "raw_train": 1411,
+    "quality_gate_rejected": 141,
+    "after_exact_dedup": 1158,
+    "after_minhash_dedup": 1134,
+    "curated_train": 1134,
+    "validation": 270,
+    "test": 270
+  },
+  "injected_label_noise": {
+    "total": 141,
+    "caught_by_quality_gate": 141,
+    "by_type": {
+      "hallucinated_value": 19,
+      "wrong_amount": 79,
+      "broken_json": 43
+    }
+  },
+  "injected_duplicates": {
+    "total": 151,
+    "by_kind": {
+      "exact": 84,
+      "near": 67
+    }
+  },
+  "quality_gate_rejection_reasons": {
+    "ungrounded": 98,
+    "validation_errors_mismatch": 65,
+    "invalid_json": 43
+  },
+  "defect_counts_by_split": {
+    "train": {
+      "arithmetic_inconsistency": 106,
+      "exempt": 74,
+      "gst": 1193,
+      "inter_state": 519,
+      "malformed_gstin": 131,
+      "missing_customer_gstin": 128,
+      "missing_due_date": 170,
+      "missing_hsn_sac": 226,
+      "missing_invoice_number": 133,
+      "missing_supplier_address": 134,
+      "missing_supplier_gstin": 134,
+      "no_tax": 144
+    },
+    "validation": {
+      "arithmetic_inconsistency": 31,
+      "exempt": 15,
+      "gst": 229,
+      "inter_state": 103,
+      "malformed_gstin": 28,
+      "missing_customer_gstin": 27,
+      "missing_due_date": 32,
+      "missing_hsn_sac": 52,
+      "missing_invoice_number": 23,
+      "missing_supplier_address": 33,
+      "missing_supplier_gstin": 19,
+      "no_tax": 26
+    },
+    "test": {
+      "arithmetic_inconsistency": 11,
+      "exempt": 10,
+      "gst": 235,
+      "inter_state": 96,
+      "malformed_gstin": 29,
+      "missing_customer_gstin": 40,
+      "missing_due_date": 32,
+      "missing_hsn_sac": 50,
+      "missing_invoice_number": 27,
+      "missing_supplier_address": 32,
+      "missing_supplier_gstin": 32,
+      "no_tax": 25
+    }
+  },
+  "curatorkit_artifacts": "artifacts\\curatorkit\\run"
+}

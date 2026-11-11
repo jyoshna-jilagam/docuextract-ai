@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "split_unit": "base invoice id; duplicates stay in train only",
+  "counts": {
+    "validation": 270,
+    "test": 270,
+    "train": 1411
+  },
+  "id_checksums": {
+    "validation": "ee4f1dc6d91c0e4021dd14840c52d8b9919fcddadf7427b30f3470848f801fa0",
+    "test": "f2172f1d9c3ef52956f0be87554409cbe0fa35c43e923a6322940dea44f00681",
+    "train": "fd4cadfae57d69aafc9c0c7b442a3d54b5c30ebc427e19e803b3617da8d50aa7"
+  },
+  "normalized_document_overlap": {
+    "train_vs_validation": 0,
+    "train_vs_test": 0,
+    "validation_vs_test": 0
+  }
+}
